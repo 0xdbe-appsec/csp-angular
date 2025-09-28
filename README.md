@@ -6,10 +6,10 @@ This application is a demonstration prototype just to show how to write a Conten
 
 Write your CSP in ``src/environments/environment.ts`` and run ``npm start``.
 
-Customize your CSP to resolve all errors, without using ``script-src: unsafe-eval``.
+Customize your CSP to resolve all errors, without using ``script-src: unsafe-*``.
 
 # For production environement
 
 Write your CSP in ``src/environments/environment.prod.ts`` and run ``npm run build``.
 
-Then, run ``npm run serve`` to expose the application. Adjust your CSP to resolve all errors, without using ``script-src: unsafe-eval``. 
+Then, run ``npm run serve`` to expose the application. Adjust your CSP to resolve all errors, without using ``script-src: unsafe-*``. 
